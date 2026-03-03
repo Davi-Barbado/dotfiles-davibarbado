@@ -1,0 +1,62 @@
+configuration {
+    display-drun: "󰀻 Apps";
+    display-window: "󱂬 Janelas";
+    show-icons: true;
+    icon-theme: "Papirus"; /* Ou o nome do seu tema de ícones */
+}
+
+* {
+    /* Suas Cores */
+    bg: #2a2f3a;
+    bg-alt: #303643;
+    fg: #ffffff;
+    fg-alt: #888888;
+    sel: #3f4758;
+
+    background-color: @bg;
+    text-color: @fg;
+    font: "JetBrainsMono Nerd Font 10";
+}
+
+window {
+    width: 35%;
+    border: 2px;
+    border-color: @sel;
+    padding: 10px;
+}
+
+entry {
+    background-color: @bg-alt;
+    padding: 12px;
+    margin: 0 0 10px 0;
+    text-color: @fg;
+    placeholder: "Pesquisar...";
+}
+
+element {
+    padding: 5px;
+    spacing: 10px; /* Espaço entre ícone e texto */
+    text-color: @fg-alt;
+}
+
+element selected {
+    background-color: @sel;
+    text-color: @fg;
+    border-radius: 4px;
+}
+
+element-icon {
+    size: 24px; /* Tamanho dos ícones */
+    background-color: inherit;
+}
+
+element-text {
+    background-color: inherit;
+    text-color: inherit;
+    vertical-align: 0.5;
+}
+
+listview {
+    lines: 10;
+    columns: 1;
+}
