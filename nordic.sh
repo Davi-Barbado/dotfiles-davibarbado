@@ -4,4 +4,4 @@ mv Nordic ~/.themes
 cd ~/dotfiles-davibarbado
 git clone https://github.com/yeyushengfan258/Twilight-Cursors.git
 mkdir -p ~/.icons
-cp -r Twilight-cursors ~/.icons
+cp -r Twilight-cursors/dist ~/.icons
