@@ -3,4 +3,4 @@ mkdir -p ~/.themes
 mv Nordic ~/.themes
 cd ~/dotfiles-davibarbado
 mkdir -p ~/.icons
-cp Twilight-cursors ~/.icons
+cp -r Twilight-cursors ~/.icons
