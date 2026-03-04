@@ -45,7 +45,8 @@ bindsym $mod+Shift+q kill
 bindsym Print exec xfce4-screenshooter
 bindsym $mod+d exec rofi -show drun -theme ~/.config/rofi/theme.rasi
 bindsym $mod+x exec rofi -show power-menu -modi "power-menu:rofi-power-menu --choices=shutdown/reboot/suspend" -theme ~/.config/rofi/theme.rasi
-
+bindsym $mod+s exec wall-d -f -d ~/wallpapers/
+for_window [class="Sxiv"] floating enable
 # Navegacao
 bindsym $mod+j focus left
 bindsym $mod+k focus down
@@ -70,7 +71,7 @@ bindsym $mod+Shift+Right move right
 bindsym $mod+h split h
 bindsym $mod+v split v
 bindsym $mod+f fullscreen toggle
-bindsym $mod+s layout stacking
+# bindsym $mod+s layout stacking
 bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 bindsym $mod+Shift+space floating toggle
