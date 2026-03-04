@@ -3,3 +3,6 @@ yay -S --noconfirm --needed brave-bin volctl
 git clone https://github.com/jluttine/rofi-power-menu.git
 cd rofi-power-menu
 sudo cp rofi-power-menu /usr/bin
+git clone https://github.com/ronniedroid/Wall-d.git
+cd Wall-d
+sudo cp wall-d /usr/bin
