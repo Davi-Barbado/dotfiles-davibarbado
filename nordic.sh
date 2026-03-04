@@ -1,5 +1,6 @@
-wget https://ocs-dl.fra1.cdn.digitaloceanspaces.com/data/files/1539322040/Nordic-darker.tar.xz?response-content-disposition=attachment%3B%2520Nordic-darker.tar.xz&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=RWJAQUNCHT7V2NCLZ2AL%2F20260304%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260304T130716Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=4e8579b1234d759f49a9b2ce9836687a42302d9bf668fb079a95ab436adc7d02
-mv Nordic-darker.tar.xz\?response-content-disposition\=attachment\;%20Nordic-darker.tar.xz\&X-Amz-Content-Sha256\=UNSIGNED-PAYLOAD\&X-Amz-Algorithm\=AWS4-HMAC-SHA256\&X-Amz-Credential\=RWJAQUNCHT7V2NCLZ2AL%2F20260304%2Fus-east-1%2Fs3%2Faws4_request Nordic-darker.tar.xz
-tar -xf Nordic-darker.tar.xz
+git clone https://github.com/EliverLara/Nordic.git
 mkdir -p ~/.themes
-mv Nordic-darker ~/.themes
+mv Nordic ~/.themes
+cd ~/dotfiles-davibarbado
+mkdir -p ~/.icons
+cp Twilight-cursors ~/.icons
