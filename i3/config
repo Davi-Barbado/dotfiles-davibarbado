@@ -42,7 +42,7 @@ tiling_drag modifier titlebar
 # Atalhos Basicos
 bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Shift+q kill
-bindsym Print exec scrot -s
+bindsym Print exec xfce4-screenshooter
 bindsym $mod+d exec rofi -show drun -theme ~/.config/rofi/theme.rasi
 bindsym $mod+x exec rofi -show power-menu -modi "power-menu:rofi-power-menu --choices=shutdown/reboot/suspend" -theme ~/.config/rofi/theme.rasi
 
