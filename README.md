@@ -6,7 +6,6 @@
 
 # Depedencies
 ## yay
-## wget
 
 # Usage
 ## use the available scritps for download packages and themes
